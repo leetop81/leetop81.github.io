@@ -1,42 +1,23 @@
-# Site settings
-title: 세친구의 토지투자
-description: 토지투자 정보공유를 위한 블로그
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://leetop81.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# User settings
-username: leetop
-user_description: 토지투자자
-email: jakelee0081@gmail.com
-twitter_username: none
-github_username:  none
-gplus_username:  none
-disqus_username: none
+# Site settings
+title: Your Blog Title
+description: '' # write a nice description for your blog
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site http://www.example.com
+# google_analytics: 'UA-XXXXXX-X'
+twitter_username: 'twitter_username'
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: /:title/
 
+permalink: '/:title/'
 
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
+gems: [jekyll-paginate]
 
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: Series
-    url: /series
-  - title: Tags
-    url: /tags
-  - title: About Me
-    url: /about
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+paginate: 10
